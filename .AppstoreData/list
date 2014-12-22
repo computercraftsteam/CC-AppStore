@@ -4,10 +4,14 @@
   "author" = "manumanucraft",
   "versions" = {
       {
-      "name" = "Server v1"
+      "code" = "server1",
+      "name" = "Server v1",
+      "files" = {"server"}
       },
       {
-      "name" = "Client v1"
+      "code" = "client1",
+      "name" = "Client v1",
+      "files" = {"client"}
       }
     }
   },
