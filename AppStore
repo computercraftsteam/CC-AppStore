@@ -1,0 +1,9 @@
+local list = textutils.unserialize(http.get("http://cc-appstore.googlecode.com/svn/branches/master/.AppStore/list").readAll())
+while true do
+  a = list
+  a[sItem].name = "[ "..a[sItem].name.." ]"
+  _,key = os.pullEventRaw("key")
+  if key == keys.down then
+    sItem = sItem + 1
+  end
+end
